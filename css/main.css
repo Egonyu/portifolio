@@ -1,0 +1,41 @@
+// font and color validation
+
+// Fonts
+/*$sans-serif:'Ralyway', sans-serif;
+$font-light:300;
+$font-bold:700;*/
+
+// Colours
+/*$black:#353535;
+$gray:#4f4f4f;
+$medium-gray:#737373;
+$light-gray:#c4c4c4;
+$orange:#f96855;*/
+
+// semanti colour name
+/*$accent:$orange;
+
+$body-background:$black;
+$menu-background:$gray;
+
+$main-font-color:$light-gray;
+$menu-active-color:$light-gray;
+$menu-font-color:$medium-gray;
+$link-color:$accent;*/
+
+
+// General styles
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: 000;
+	color:main-font-color;
+	font-family: sans-serif;
+	font-size:1.2rem;
+	line-height:1.45;
+	display: flex;
+	flex-wrap: wrap;
+}
